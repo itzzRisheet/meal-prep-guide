@@ -59,18 +59,40 @@ export const useMealStore = create((set, get) => ({
   },
 
   // Add selected ingredient
-  addSelectedIngredient: (ingredient) => {
-    const current = get().selectedIngredients;
-    if (!current.includes(ingredient)) {
-      set({ selectedIngredients: [...current, ingredient] });
-    }
-  },
+  // Add selected ingredient and automatically search dishes
+addSelectedIngredient: async (ingredient) => {
+  const current = get().selectedIngredients;
+
+  if (!current.includes(ingredient)) {
+    const updated = [...current, ingredient];
+
+    set({
+      selectedIngredients: updated,
+    });
+
+    await get().searchByIngredients(updated);
+  }
+},
 
   // Remove selected ingredient
-  removeSelectedIngredient: (ingredient) => {
-    const current = get().selectedIngredients;
-    set({ selectedIngredients: current.filter(i => i !== ingredient) });
-  },
+  // Remove selected ingredient and automatically update dishes
+removeSelectedIngredient: async (ingredient) => {
+  const current = get().selectedIngredients;
+  const updated = current.filter(i => i !== ingredient);
+
+  set({
+    selectedIngredients: updated,
+  });
+
+  if (updated.length === 0) {
+    set({
+      filteredDishes: [],
+    });
+    return;
+  }
+
+  await get().searchByIngredients(updated);
+},
 
   // Clear selected ingredients
   clearSelectedIngredients: () => {
