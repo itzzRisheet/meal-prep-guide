@@ -1,0 +1,2183 @@
+[
+  {
+    "name": "eggs",
+    "category": "proteins",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": "1 egg",
+        "amount": "0.6 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "25%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Choline",
+        "serving": "1 large egg",
+        "amount": "147 mg",
+        "daily_requirement": "550 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": "1 large egg",
+        "amount": "15.4 mcg",
+        "daily_requirement": "55 mcg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": "1 large egg",
+        "amount": "75 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~8%",
+        "notes": "Moderate"
+      }
+    ],
+    "nutrients": {
+      "base": "1 large egg",
+      "protein_g": 6.3,
+      "carbs_g": 0.4,
+      "fat_g": 4.8,
+      "fiber_g": 0,
+      "calories_kcal": 72,
+      "health_tag": "Good"
+    }
+  },
+  {
+    "name": "butter",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 0,
+      "fat_g": 81,
+      "fiber_g": 0,
+      "calories_kcal": 720,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "oats",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 13,
+      "carbs_g": 66,
+      "fat_g": 7,
+      "fiber_g": 10,
+      "calories_kcal": 380,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "berries",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0.7,
+      "carbs_g": 12,
+      "fat_g": 0.3,
+      "fiber_g": 5,
+      "calories_kcal": 55,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "25 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "milk",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100ml",
+      "protein_g": 3,
+      "carbs_g": 5,
+      "fat_g": 4,
+      "fiber_g": 0,
+      "calories_kcal": 60,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": "100ml",
+        "amount": "0.4 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "15%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": "100ml",
+        "amount": "120 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": "100ml",
+        "amount": "95 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "15%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "honey",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0.3,
+      "carbs_g": 82.4,
+      "fat_g": 0,
+      "fiber_g": 0,
+      "calories_kcal": 304,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "rice",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 7,
+      "carbs_g": 78,
+      "fat_g": 0.5,
+      "fiber_g": 1,
+      "calories_kcal": 350,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "chicken",
+    "category": "proteins",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": "100g",
+        "amount": "0.3 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": "100g",
+        "amount": "0.5 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": "100g",
+        "amount": "2 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~20%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": "100g",
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "30%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {
+      "protein": 22,
+      "carbohydrates": 0,
+      "fat": 2,
+      "fiber": 0,
+      "calories": 120
+    }
+  },
+  {
+    "name": "soy sauce",
+    "category": "spices",
+    "nutrients": {},
+    "vitamins_minerals": []
+  },
+  {
+    "name": "vegetables",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 8,
+      "fat_g": 0.3,
+      "fiber_g": 3,
+      "calories_kcal": 40,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pasta",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 12,
+      "carbs_g": 75,
+      "fat_g": 1,
+      "fiber_g": 3,
+      "calories_kcal": 370,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "bacon",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 37,
+      "carbs_g": 1.4,
+      "fat_g": 42,
+      "fiber_g": 0,
+      "calories_kcal": 541,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B1",
+        "serving": "100g",
+        "amount": "0.6 mg",
+        "daily_requirement": "1.2 mg",
+        "percent_fulfilled": "~50%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Sodium",
+        "serving": "100g",
+        "amount": "1717 mg",
+        "daily_requirement": "2000 mg",
+        "percent_fulfilled": "~86%",
+        "notes": "Limit"
+      }
+    ]
+  },
+  {
+    "name": "parmesan cheese",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 25,
+      "carbs_g": 2,
+      "fat_g": 33,
+      "fiber_g": 0,
+      "calories_kcal": 400,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "black pepper",
+    "category": "spices",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 10.4,
+      "carbs_g": 64.8,
+      "fat_g": 3.3,
+      "fiber_g": 25.3,
+      "calories_kcal": 251,
+      "health_tag": "Use small amounts"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": "100g",
+        "amount": "12.5 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "500%+",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": "100g",
+        "amount": "9.7 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~57%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "chickpeas",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 19,
+      "carbs_g": 60,
+      "fat_g": 6,
+      "fiber_g": 17,
+      "calories_kcal": 360,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": "100g",
+        "amount": "170 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": "100g",
+        "amount": "6 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~35%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "tahini",
+    "category": "oils",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 17,
+      "carbs_g": 21,
+      "fat_g": 53,
+      "fiber_g": 9.3,
+      "calories_kcal": 595,
+      "health_tag": "Good (small)"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": "100g",
+        "amount": "426 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": "100g",
+        "amount": "95 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~24%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "lemon juice",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100ml",
+      "protein_g": 0.4,
+      "carbs_g": 6.9,
+      "fat_g": 0.2,
+      "fiber_g": 0.3,
+      "calories_kcal": 22,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100ml",
+        "amount": "39 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "pita bread",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 8,
+      "carbs_g": 50,
+      "fat_g": 3,
+      "fiber_g": 3,
+      "calories_kcal": 260,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "banana",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 23,
+      "fat_g": 0,
+      "fiber_g": 2.5,
+      "calories_kcal": 90,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B6",
+        "serving": "100g",
+        "amount": "0.4 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "30%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": "100g",
+        "amount": "350 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "yogurt",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 4,
+      "carbs_g": 5,
+      "fat_g": 3,
+      "fiber_g": 0,
+      "calories_kcal": 60,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": "100g",
+        "amount": "150 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "15%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "tomato",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 4,
+      "fat_g": 0,
+      "fiber_g": 1,
+      "calories_kcal": 20,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "14 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Low"
+      }
+    ]
+  },
+  {
+    "name": "onion",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 9,
+      "fat_g": 0,
+      "fiber_g": 1.5,
+      "calories_kcal": 40,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "garlic",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 6.4,
+      "carbs_g": 33.1,
+      "fat_g": 0.5,
+      "fiber_g": 2.1,
+      "calories_kcal": 149,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "31 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~34%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": "100g",
+        "amount": "1.7 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~74%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "avocado",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 9,
+      "fat_g": 15,
+      "fiber_g": 7,
+      "calories_kcal": 160,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "olive oil",
+    "category": "oils",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0,
+      "calories_kcal": 900,
+      "health_tag": "Best (small)"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "cucumber",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 4,
+      "fat_g": 0,
+      "fiber_g": 1,
+      "calories_kcal": 15,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "chicken breast",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 22,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "calories_kcal": 120,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "chicken thigh",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 8,
+      "fiber_g": 0,
+      "calories_kcal": 180,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "chicken mince",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 19,
+      "carbs_g": 0,
+      "fat_g": 10,
+      "fiber_g": 0,
+      "calories_kcal": 190,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "mutton",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 15,
+      "fiber_g": 0,
+      "calories_kcal": 250,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "lamb",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 17,
+      "carbs_g": 0,
+      "fat_g": 20,
+      "fiber_g": 0,
+      "calories_kcal": 280,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pork",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 21,
+      "carbs_g": 0,
+      "fat_g": 14,
+      "fiber_g": 0,
+      "calories_kcal": 240,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "rohu",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 6,
+      "fiber_g": 0,
+      "calories_kcal": 140,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "katla",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 6,
+      "fiber_g": 0,
+      "calories_kcal": 140,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "tuna",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 24,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "fiber_g": 0,
+      "calories_kcal": 110,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "salmon",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 13,
+      "fiber_g": 0,
+      "calories_kcal": 200,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": "100g",
+        "amount": "526 IU",
+        "daily_requirement": "600 IU",
+        "percent_fulfilled": "~85%",
+        "notes": "Best"
+      }
+    ]
+  },
+  {
+    "name": "pomfret",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 8,
+      "fiber_g": 0,
+      "calories_kcal": 150,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "prawns",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 0,
+      "fat_g": 1,
+      "fiber_g": 0,
+      "calories_kcal": 100,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "crab",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "calories_kcal": 100,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "squid",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 16,
+      "carbs_g": 3,
+      "fat_g": 1,
+      "fiber_g": 0,
+      "calories_kcal": 90,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "paneer",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 2,
+      "fat_g": 20,
+      "fiber_g": 0,
+      "calories_kcal": 260,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": "100g",
+        "amount": "0.8 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~30%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": "100g",
+        "amount": "200 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "20%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "greek yogurt",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 10,
+      "carbs_g": 4,
+      "fat_g": 3,
+      "fiber_g": 0,
+      "calories_kcal": 80,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "buttermilk",
+    "category": "dairy",
+    "nutrients": {
+      "base": "100ml",
+      "protein_g": 3,
+      "carbs_g": 4,
+      "fat_g": 1,
+      "fiber_g": 0,
+      "calories_kcal": 40,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "moong dal",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 24,
+      "carbs_g": 60,
+      "fat_g": 1,
+      "fiber_g": 16,
+      "calories_kcal": 350,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": "100g",
+        "amount": "160 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "rajma",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 24,
+      "carbs_g": 60,
+      "fat_g": 1,
+      "fiber_g": 15,
+      "calories_kcal": 330,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": "100g",
+        "amount": "5 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~30%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "lobia",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 23,
+      "carbs_g": 60,
+      "fat_g": 1,
+      "fiber_g": 11,
+      "calories_kcal": 330,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "toor dal",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 22,
+      "carbs_g": 63,
+      "fat_g": 2,
+      "fiber_g": 15,
+      "calories_kcal": 340,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "masoor dal",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 25,
+      "carbs_g": 60,
+      "fat_g": 1,
+      "fiber_g": 11,
+      "calories_kcal": 350,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "urad dal",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 25,
+      "carbs_g": 58,
+      "fat_g": 1,
+      "fiber_g": 18,
+      "calories_kcal": 340,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "soya chunks",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 52,
+      "carbs_g": 33,
+      "fat_g": 1,
+      "fiber_g": 13,
+      "calories_kcal": 345,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "tofu",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 8,
+      "carbs_g": 2,
+      "fat_g": 4,
+      "fiber_g": 1,
+      "calories_kcal": 80,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "tempeh",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 19,
+      "carbs_g": 9,
+      "fat_g": 11,
+      "fiber_g": 5,
+      "calories_kcal": 190,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "besan",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 22,
+      "carbs_g": 58,
+      "fat_g": 6,
+      "fiber_g": 10,
+      "calories_kcal": 380,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "sattu",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 60,
+      "fat_g": 7,
+      "fiber_g": 18,
+      "calories_kcal": 400,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "peanut butter",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 25,
+      "carbs_g": 20,
+      "fat_g": 50,
+      "fiber_g": 6,
+      "calories_kcal": 600,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "peanuts",
+    "category": "proteins",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 26,
+      "carbs_g": 16,
+      "fat_g": 49,
+      "fiber_g": 8,
+      "calories_kcal": 560,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": "100g",
+        "amount": "8 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~50%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "quinoa",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 14,
+      "carbs_g": 64,
+      "fat_g": 6,
+      "fiber_g": 7,
+      "calories_kcal": 370,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "brown rice",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 7,
+      "carbs_g": 77,
+      "fat_g": 2,
+      "fiber_g": 3,
+      "calories_kcal": 360,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "wheat flour",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 12,
+      "carbs_g": 72,
+      "fat_g": 2,
+      "fiber_g": 11,
+      "calories_kcal": 340,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "roti",
+    "category": "grains",
+    "nutrients": {
+      "base": 1,
+      "protein_g": 3,
+      "carbs_g": 15,
+      "fat_g": 1,
+      "fiber_g": 2,
+      "calories_kcal": 80,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "jowar",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 10,
+      "carbs_g": 72,
+      "fat_g": 3,
+      "fiber_g": 9,
+      "calories_kcal": 330,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "bajra",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 11,
+      "carbs_g": 67,
+      "fat_g": 5,
+      "fiber_g": 11,
+      "calories_kcal": 360,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "ragi",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 7,
+      "carbs_g": 72,
+      "fat_g": 1,
+      "fiber_g": 11,
+      "calories_kcal": 330,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": "100g",
+        "amount": "350 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "35%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "poha",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 7,
+      "carbs_g": 76,
+      "fat_g": 1,
+      "fiber_g": 2,
+      "calories_kcal": 350,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "daliya",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 12,
+      "carbs_g": 70,
+      "fat_g": 1,
+      "fiber_g": 12,
+      "calories_kcal": 340,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "vermicelli",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 12,
+      "carbs_g": 75,
+      "fat_g": 1,
+      "fiber_g": 3,
+      "calories_kcal": 350,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "noodles",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 10,
+      "carbs_g": 70,
+      "fat_g": 14,
+      "fiber_g": 2,
+      "calories_kcal": 400,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "cornflakes",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 7,
+      "carbs_g": 84,
+      "fat_g": 1,
+      "fiber_g": 3,
+      "calories_kcal": 360,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "muesli",
+    "category": "grains",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 10,
+      "carbs_g": 65,
+      "fat_g": 5,
+      "fiber_g": 8,
+      "calories_kcal": 350,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "potato",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 17,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 80,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B6",
+        "serving": "100g",
+        "amount": "0.3 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "20%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": "100g",
+        "amount": "420 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "sweet potato",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 20,
+      "fat_g": 0,
+      "fiber_g": 3,
+      "calories_kcal": 90,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "100g",
+        "amount": "960 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "100%+",
+        "notes": "Excellent"
+      }
+    ]
+  },
+  {
+    "name": "corn",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 3,
+      "carbs_g": 19,
+      "fat_g": 1,
+      "fiber_g": 2,
+      "calories_kcal": 90,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "sabudana",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 88,
+      "fat_g": 0,
+      "fiber_g": 1,
+      "calories_kcal": 350,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "apple",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 14,
+      "fat_g": 0,
+      "fiber_g": 2.5,
+      "calories_kcal": 50,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "mango",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 25,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 100,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "100g",
+        "amount": "54 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~6%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "chikoo",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 20,
+      "fat_g": 0,
+      "fiber_g": 5,
+      "calories_kcal": 80,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "grapes",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 18,
+      "fat_g": 0,
+      "fiber_g": 1,
+      "calories_kcal": 70,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "orange",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 12,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 50,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "50 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~60%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "papaya",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 11,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 40,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pineapple",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 13,
+      "fat_g": 0,
+      "fiber_g": 1.5,
+      "calories_kcal": 50,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "dates",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 75,
+      "fat_g": 0,
+      "fiber_g": 7,
+      "calories_kcal": 280,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "ghee",
+    "category": "oils",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0,
+      "calories_kcal": 900,
+      "health_tag": "Limit (1-2 tsp)"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "coconut oil",
+    "category": "oils",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 100,
+      "fiber_g": 0,
+      "calories_kcal": 900,
+      "health_tag": "Limit"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "almonds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 21,
+      "carbs_g": 22,
+      "fat_g": 50,
+      "fiber_g": 12,
+      "calories_kcal": 580,
+      "health_tag": "Best (small)"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": "100g",
+        "amount": "25 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "150%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": "100g",
+        "amount": "270 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "70%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "cashews",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 30,
+      "fat_g": 44,
+      "fiber_g": 3,
+      "calories_kcal": 550,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Zinc",
+        "serving": "100g",
+        "amount": "5 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~45%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "walnuts",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 15,
+      "carbs_g": 14,
+      "fat_g": 65,
+      "fiber_g": 7,
+      "calories_kcal": 650,
+      "health_tag": "Best (small)"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pistachios",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 28,
+      "fat_g": 45,
+      "fiber_g": 10,
+      "calories_kcal": 560,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "chia seeds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 17,
+      "carbs_g": 42,
+      "fat_g": 31,
+      "fiber_g": 34,
+      "calories_kcal": 490,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "flax seeds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 29,
+      "fat_g": 42,
+      "fiber_g": 27,
+      "calories_kcal": 530,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pumpkin seeds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 30,
+      "carbs_g": 10,
+      "fat_g": 49,
+      "fiber_g": 6,
+      "calories_kcal": 560,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Magnesium",
+        "serving": "100g",
+        "amount": "535 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "100%+",
+        "notes": "Excellent"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": "100g",
+        "amount": "7.5 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~70%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "sunflower seeds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 21,
+      "carbs_g": 20,
+      "fat_g": 51,
+      "fiber_g": 11,
+      "calories_kcal": 580,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": "100g",
+        "amount": "35 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "200%+",
+        "notes": "Excellent"
+      }
+    ]
+  },
+  {
+    "name": "sesame seeds",
+    "category": "other",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 18,
+      "carbs_g": 23,
+      "fat_g": 50,
+      "fiber_g": 12,
+      "calories_kcal": 570,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": "100g",
+        "amount": "975 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "100%+",
+        "notes": "Excellent"
+      }
+    ]
+  },
+  {
+    "name": "coconut",
+    "category": "fruits",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 3,
+      "carbs_g": 15,
+      "fat_g": 33,
+      "fiber_g": 9,
+      "calories_kcal": 350,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "carrot",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 10,
+      "fat_g": 0,
+      "fiber_g": 3,
+      "calories_kcal": 40,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "100g",
+        "amount": "835 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~90%",
+        "notes": "Top source"
+      }
+    ]
+  },
+  {
+    "name": "capsicum",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 25,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "120 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "130%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "spinach",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 3,
+      "carbs_g": 4,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 25,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "100g",
+        "amount": "470 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~50%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": "100g",
+        "amount": "190 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~50%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": "100g",
+        "amount": "480 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "400%+",
+        "notes": "Excellent"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": "100g",
+        "amount": "2.7 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": "100g",
+        "amount": "80 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "20%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": "100g",
+        "amount": "550 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "15%",
+        "notes": "Moderate"
+      }
+    ]
+  },
+  {
+    "name": "broccoli",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 3,
+      "carbs_g": 7,
+      "fat_g": 0,
+      "fiber_g": 3,
+      "calories_kcal": 35,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin K",
+        "serving": "100g",
+        "amount": "100 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~100%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "cauliflower",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 5,
+      "fat_g": 0,
+      "fiber_g": 2,
+      "calories_kcal": 25,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "cabbage",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 0,
+      "fiber_g": 2.5,
+      "calories_kcal": 25,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin K",
+        "serving": "100g",
+        "amount": "75 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~70%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "bhindi",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2,
+      "carbs_g": 7,
+      "fat_g": 0,
+      "fiber_g": 3,
+      "calories_kcal": 30,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "lauki",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 3,
+      "fat_g": 0,
+      "fiber_g": 1,
+      "calories_kcal": 15,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "brinjal",
+    "category": "vegetables",
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1,
+      "carbs_g": 6,
+      "fat_g": 0,
+      "fiber_g": 3,
+      "calories_kcal": 25,
+      "health_tag": "Best"
+    },
+    "vitamins_minerals": []
+  },
+  {
+    "name": "pumpkin",
+    "category": "vegetables",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "100g",
+        "amount": "426 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~45%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {
+      "protein": 30,
+      "carbohydrates": 10,
+      "fat": 49,
+      "fiber": 6,
+      "calories": 560
+    }
+  },
+  {
+    "name": "egg yolk",
+    "category": "proteins",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": "1 egg",
+        "amount": "75 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~8%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": "1 egg",
+        "amount": "40 IU",
+        "daily_requirement": "600 IU",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": "1 egg yolk",
+        "amount": "75 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~8%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": "1 egg yolk",
+        "amount": "40 IU",
+        "daily_requirement": "600 IU",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      }
+    ],
+    "nutrients": {
+      "base": "1 egg yolk",
+      "protein_g": 2.7,
+      "carbs_g": 0.6,
+      "fat_g": 4.5,
+      "fiber_g": 0,
+      "calories_kcal": 55,
+      "health_tag": "Good"
+    }
+  },
+  {
+    "name": "amla",
+    "category": "fruits",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "600 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "600%+",
+        "notes": "Best"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 0.8,
+      "carbs_g": 10,
+      "fat_g": 0.5,
+      "fiber_g": 4.3,
+      "calories_kcal": 44,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "guava",
+    "category": "fruits",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "228 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "200%+",
+        "notes": "Excellent"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 2.6,
+      "carbs_g": 14.3,
+      "fat_g": 1,
+      "fiber_g": 5.4,
+      "calories_kcal": 68,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "lemon",
+    "category": "fruits",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": "100g",
+        "amount": "53 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~60%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1.1,
+      "carbs_g": 9.3,
+      "fat_g": 0.3,
+      "fiber_g": 2.8,
+      "calories_kcal": 29,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "sardines",
+    "category": "proteins",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": "100g",
+        "amount": "270 IU",
+        "daily_requirement": "600 IU",
+        "percent_fulfilled": "~45%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 24.6,
+      "carbs_g": 0,
+      "fat_g": 11.5,
+      "fiber_g": 0,
+      "calories_kcal": 208,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "mushroom (sun exposed)",
+    "category": "vegetables",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": "100g",
+        "amount": "200 IU",
+        "daily_requirement": "600 IU",
+        "percent_fulfilled": "~30%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {}
+  },
+  {
+    "name": "fish",
+    "category": "proteins",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": "100g",
+        "amount": "2.5 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "100%+",
+        "notes": "Best"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 22,
+      "carbs_g": 0,
+      "fat_g": 5,
+      "fiber_g": 0,
+      "calories_kcal": 140,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "beetroot",
+    "category": "vegetables",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": "100g",
+        "amount": "110 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~25%",
+        "notes": "Moderate"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 1.6,
+      "carbs_g": 10,
+      "fat_g": 0.2,
+      "fiber_g": 2.8,
+      "calories_kcal": 43,
+      "health_tag": "Best"
+    }
+  },
+  {
+    "name": "jaggery",
+    "category": "other",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": "100g",
+        "amount": "11 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~60%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {}
+  },
+  {
+    "name": "salt",
+    "category": "spices",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Sodium",
+        "serving": "1 tsp",
+        "amount": "2300 mg",
+        "daily_requirement": "2000 mg",
+        "percent_fulfilled": "100%+",
+        "notes": "Limit"
+      }
+    ],
+    "nutrients": {
+      "base": "1 tsp",
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "fiber_g": 0,
+      "calories_kcal": 0,
+      "health_tag": "Limit"
+    }
+  },
+  {
+    "name": "nuts",
+    "category": "other",
+    "vitamins_minerals": [
+      {
+        "nutrient": "Phosphorus",
+        "serving": "100g",
+        "amount": "300 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "40%",
+        "notes": "Good"
+      }
+    ],
+    "nutrients": {
+      "base": "100g",
+      "protein_g": 20,
+      "carbs_g": 20,
+      "fat_g": 55,
+      "fiber_g": 8,
+      "calories_kcal": 600,
+      "health_tag": "Good (small)"
+    }
+  }
+]

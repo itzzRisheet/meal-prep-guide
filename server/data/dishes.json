@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Scrambled Eggs with Toast",
+    "category": "breakfast",
+    "description": "Simple, quick scrambled eggs with buttered toast.",
+    "ingredients": [
+      { "name": "eggs", "quantity": "3" },
+      { "name": "butter", "quantity": "1 tbsp" },
+      { "name": "bread", "quantity": "2 slices" }
+    ],
+    "recipe": "Beat eggs with a pinch of salt. Melt butter in a pan, pour eggs and stir until softly set. Toast the bread and serve.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=scrambled+eggs",
+    "prepTime": 10,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Oatmeal with Berries",
+    "category": "breakfast",
+    "description": "Warm oats topped with fresh or frozen berries.",
+    "ingredients": [
+      { "name": "oats", "quantity": "1 cup" },
+      { "name": "milk", "quantity": "1.5 cups" },
+      { "name": "berries", "quantity": "1 cup" },
+      { "name": "honey", "quantity": "1 tbsp" }
+    ],
+    "recipe": "Cook oats in milk for 5-7 minutes until thick. Top with berries and a drizzle of honey.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=oatmeal+with+berries",
+    "prepTime": 12,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Avocado Toast",
+    "category": "breakfast",
+    "description": "Mashed avocado on toasted bread with lemon and chili flakes.",
+    "ingredients": [
+      { "name": "avocado", "quantity": "1" },
+      { "name": "bread", "quantity": "2 slices" },
+      { "name": "lemon juice", "quantity": "1 tsp" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "recipe": "Toast bread, mash avocado with lemon and salt, spread on toast. Sprinkle chili flakes if desired.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=avocado+toast",
+    "prepTime": 8,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 5
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "category": "meal",
+    "description": "One-pan fried rice with chicken and mixed vegetables.",
+    "ingredients": [
+      { "name": "rice", "quantity": "3 cups cooked" },
+      { "name": "chicken", "quantity": "250g" },
+      { "name": "eggs", "quantity": "2" },
+      { "name": "soy sauce", "quantity": "2 tbsp" },
+      { "name": "vegetables", "quantity": "1 cup mixed" }
+    ],
+    "recipe": "Stir-fry chicken until cooked. Push to side, scramble eggs. Add rice and vegetables, pour soy sauce and toss until combined.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=chicken+fried+rice",
+    "prepTime": 20,
+    "difficulty": "medium",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Pasta Carbonara",
+    "category": "meal",
+    "description": "Creamy carbonara with pancetta and parmesan.",
+    "ingredients": [
+      { "name": "pasta", "quantity": "400g" },
+      { "name": "bacon", "quantity": "150g" },
+      { "name": "eggs", "quantity": "3" },
+      { "name": "parmesan cheese", "quantity": "80g" },
+      { "name": "black pepper", "quantity": "to taste" }
+    ],
+    "recipe": "Cook pasta. Fry bacon until crispy. Whisk eggs and cheese. Toss hot pasta with bacon and egg mixture off the heat, season with pepper.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=pasta+carbonara",
+    "prepTime": 25,
+    "difficulty": "medium",
+    "isCustom": false,
+    "rating": 5
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "category": "meal",
+    "description": "Quick stir-fried seasonal vegetables with garlic and soy.",
+    "ingredients": [
+      { "name": "vegetables", "quantity": "3 cups mixed" },
+      { "name": "garlic", "quantity": "2 cloves" },
+      { "name": "soy sauce", "quantity": "1.5 tbsp" },
+      { "name": "oil", "quantity": "1 tbsp" }
+    ],
+    "recipe": "Heat oil, add garlic and vegetables, stir-fry on high heat. Add soy sauce and toss until cooked but crisp.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=vegetable+stir+fry",
+    "prepTime": 15,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Hummus with Pita",
+    "category": "snacks",
+    "description": "Creamy hummus served with warm pita bread.",
+    "ingredients": [
+      { "name": "chickpeas", "quantity": "2 cups cooked" },
+      { "name": "tahini", "quantity": "2 tbsp" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "garlic", "quantity": "1 clove" }
+    ],
+    "recipe": "Blend chickpeas, tahini, lemon and garlic until smooth. Serve with pita and olive oil.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=hummus+recipe",
+    "prepTime": 15,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Fruit Smoothie",
+    "category": "snacks",
+    "description": "Blended banana and mixed berries with yogurt.",
+    "ingredients": [
+      { "name": "banana", "quantity": "1" },
+      { "name": "berries", "quantity": "1 cup" },
+      { "name": "yogurt", "quantity": "1 cup" },
+      { "name": "milk", "quantity": "1/2 cup" }
+    ],
+    "recipe": "Blend all ingredients until smooth. Serve chilled.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=fruit+smoothie",
+    "prepTime": 5,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  },
+  {
+    "name": "Tomato Omelette",
+    "category": "breakfast",
+    "description": "Fluffy omelette with fresh tomato and onion.",
+    "ingredients": [
+      { "name": "eggs", "quantity": "2" },
+      { "name": "tomato", "quantity": "1 small" },
+      { "name": "onion", "quantity": "1/4" },
+      { "name": "salt", "quantity": "to taste" }
+    ],
+    "recipe": "Beat eggs, fold in diced tomato and onion, cook in a non-stick pan until set.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=tomato+omelette",
+    "prepTime": 10,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 3
+  },
+  {
+    "name": "Chickpea Salad",
+    "category": "snacks",
+    "description": "Protein-packed salad with chickpeas, cucumber and lemon.",
+    "ingredients": [
+      { "name": "chickpeas", "quantity": "1.5 cups" },
+      { "name": "cucumber", "quantity": "1/2" },
+      { "name": "lemon juice", "quantity": "1 tbsp" },
+      { "name": "olive oil", "quantity": "1 tbsp" }
+    ],
+    "recipe": "Mix chickpeas with diced cucumber, lemon, olive oil, salt and pepper. Chill and serve.",
+    "youtubeLink": "https://www.youtube.com/results?search_query=chickpea+salad",
+    "prepTime": 10,
+    "difficulty": "easy",
+    "isCustom": false,
+    "rating": 4
+  }
+]
