@@ -5,7 +5,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B12",
-        "serving": "1 egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "0.6 mcg",
         "daily_requirement": "2.4 mcg",
         "percent_fulfilled": "25%",
@@ -13,7 +16,10 @@
       },
       {
         "nutrient": "Choline",
-        "serving": "1 large egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "147 mg",
         "daily_requirement": "550 mg",
         "percent_fulfilled": "~27%",
@@ -21,7 +27,10 @@
       },
       {
         "nutrient": "Selenium",
-        "serving": "1 large egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "15.4 mcg",
         "daily_requirement": "55 mcg",
         "percent_fulfilled": "~28%",
@@ -29,7 +38,10 @@
       },
       {
         "nutrient": "Vitamin A",
-        "serving": "1 large egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "75 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~8%",
@@ -37,7 +49,11 @@
       }
     ],
     "nutrients": {
-      "base": "1 large egg",
+      "base": {
+        "quantity": 1,
+        "unit": "piece",
+        "descriptor": "large egg"
+      },
       "protein_g": 6.3,
       "carbs_g": 0.4,
       "fat_g": 4.8,
@@ -50,7 +66,10 @@
     "name": "butter",
     "category": "dairy",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 0,
       "fat_g": 81,
@@ -58,13 +77,72 @@
       "calories_kcal": 720,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "684 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~76%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.30 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.5 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "10%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "2%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "oats",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 13,
       "carbs_g": 66,
       "fat_g": 7,
@@ -72,13 +150,72 @@
       "calories_kcal": 380,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.90 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~213%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "177 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~44%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "523 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~75%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.70 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "berries",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0.7,
       "carbs_g": 12,
       "fat_g": 0.3,
@@ -89,11 +226,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "25 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~28%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "14 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.4 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "24 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "77 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "2%",
+        "notes": "Low"
       }
     ]
   },
@@ -101,7 +285,10 @@
     "name": "milk",
     "category": "dairy",
     "nutrients": {
-      "base": "100ml",
+      "base": {
+        "quantity": 100,
+        "unit": "ml"
+      },
       "protein_g": 3,
       "carbs_g": 5,
       "fat_g": 4,
@@ -112,7 +299,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B12",
-        "serving": "100ml",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
         "amount": "0.4 mcg",
         "daily_requirement": "2.4 mcg",
         "percent_fulfilled": "15%",
@@ -120,7 +310,10 @@
       },
       {
         "nutrient": "Calcium",
-        "serving": "100ml",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
         "amount": "120 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "12%",
@@ -128,11 +321,58 @@
       },
       {
         "nutrient": "Phosphorus",
-        "serving": "100ml",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
         "amount": "95 mg",
         "daily_requirement": "700 mg",
         "percent_fulfilled": "15%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "150 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "4%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin B2",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "0.18 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "46 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
       }
     ]
   },
@@ -140,7 +380,10 @@
     "name": "honey",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0.3,
       "carbs_g": 82.4,
       "fat_g": 0,
@@ -148,13 +391,72 @@
       "calories_kcal": 304,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.50 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "52.0 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.42 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Sodium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4 mg",
+        "daily_requirement": "2000 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.08 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "rice",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 7,
       "carbs_g": 78,
       "fat_g": 0.5,
@@ -162,7 +464,52 @@
       "calories_kcal": 350,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.10 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~48%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "35.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "115 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~16%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "15 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "chicken",
@@ -170,7 +517,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B12",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.3 mcg",
         "daily_requirement": "2.4 mcg",
         "percent_fulfilled": "~15%",
@@ -178,7 +528,10 @@
       },
       {
         "nutrient": "Vitamin B6",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.5 mg",
         "daily_requirement": "1.3 mg",
         "percent_fulfilled": "40%",
@@ -186,7 +539,10 @@
       },
       {
         "nutrient": "Zinc",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "2 mg",
         "daily_requirement": "11 mg",
         "percent_fulfilled": "~20%",
@@ -194,7 +550,10 @@
       },
       {
         "nutrient": "Phosphorus",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "200 mg",
         "daily_requirement": "700 mg",
         "percent_fulfilled": "30%",
@@ -202,24 +561,78 @@
       }
     ],
     "nutrients": {
-      "protein": 22,
-      "carbohydrates": 0,
-      "fat": 2,
-      "fiber": 0,
-      "calories": 120
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
+      "protein_g": 22,
+      "carbs_g": 0,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "calories_kcal": 120
     }
   },
   {
     "name": "soy sauce",
     "category": "spices",
-    "nutrients": {},
-    "vitamins_minerals": []
+    "nutrients": {
+      "base": null
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Sodium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5490 mg",
+        "daily_requirement": "2000 mg",
+        "percent_fulfilled": "~274%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.40 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "435 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "vegetables",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 8,
       "fat_g": 0.3,
@@ -227,13 +640,61 @@
       "calories_kcal": 40,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "25.0 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "250 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "45 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "250 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "pasta",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 12,
       "carbs_g": 75,
       "fat_g": 1,
@@ -241,13 +702,61 @@
       "calories_kcal": 370,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "63 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~158%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.00 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "189 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.30 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "bacon",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 37,
       "carbs_g": 1.4,
       "fat_g": 42,
@@ -258,7 +767,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B1",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.6 mg",
         "daily_requirement": "1.2 mg",
         "percent_fulfilled": "~50%",
@@ -266,11 +778,47 @@
       },
       {
         "nutrient": "Sodium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "1717 mg",
         "daily_requirement": "2000 mg",
         "percent_fulfilled": "~86%",
         "notes": "Limit"
+      },
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.4 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.6 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "25%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "33 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "82%",
+        "notes": "High"
       }
     ]
   },
@@ -278,7 +826,10 @@
     "name": "parmesan cheese",
     "category": "dairy",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 25,
       "carbs_g": 2,
       "fat_g": 33,
@@ -286,13 +837,61 @@
       "calories_kcal": 400,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1184 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~118%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "694 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~99%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Sodium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1529 mg",
+        "daily_requirement": "2000 mg",
+        "percent_fulfilled": "~76%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~50%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "black pepper",
     "category": "spices",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 10.4,
       "carbs_g": 64.8,
       "fat_g": 3.3,
@@ -303,7 +902,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Manganese",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "12.5 mg",
         "daily_requirement": "2.3 mg",
         "percent_fulfilled": "500%+",
@@ -311,10 +913,46 @@
       },
       {
         "nutrient": "Iron",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "9.7 mg",
         "daily_requirement": "17 mg",
         "percent_fulfilled": "~57%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "437 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "44%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "194 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "48%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1259 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "36%",
         "notes": "Good"
       }
     ]
@@ -323,7 +961,10 @@
     "name": "chickpeas",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 19,
       "carbs_g": 60,
       "fat_g": 6,
@@ -334,7 +975,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Folate (B9)",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "170 mcg",
         "daily_requirement": "400 mcg",
         "percent_fulfilled": "~40%",
@@ -342,10 +986,57 @@
       },
       {
         "nutrient": "Iron",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "6 mg",
         "daily_requirement": "17 mg",
         "percent_fulfilled": "~35%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "115 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "168 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "24%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "291 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "43%",
         "notes": "Good"
       }
     ]
@@ -354,7 +1045,10 @@
     "name": "tahini",
     "category": "oils",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 17,
       "carbs_g": 21,
       "fat_g": 53,
@@ -365,7 +1059,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Calcium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "426 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "~43%",
@@ -373,11 +1070,47 @@
       },
       {
         "nutrient": "Magnesium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "95 mg",
         "daily_requirement": "400 mg",
         "percent_fulfilled": "~24%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "426 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "61%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.95 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "53%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.6 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "178%",
+        "notes": "Very high"
       }
     ]
   },
@@ -385,7 +1118,10 @@
     "name": "lemon juice",
     "category": "fruits",
     "nutrients": {
-      "base": "100ml",
+      "base": {
+        "quantity": 100,
+        "unit": "ml"
+      },
       "protein_g": 0.4,
       "carbs_g": 6.9,
       "fat_g": 0.2,
@@ -396,11 +1132,47 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100ml",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
         "amount": "39 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~43%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "138 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "4%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "20 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "6 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
       }
     ]
   },
@@ -408,7 +1180,10 @@
     "name": "pita bread",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 8,
       "carbs_g": 50,
       "fat_g": 3,
@@ -416,13 +1191,123 @@
       "calories_kcal": 260,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.40 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "115 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "26 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~66%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      }
+    ]
+  },
+  {
+    "name": "bread",
+    "category": "grains",
+    "nutrients": {
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
+      "protein_g": 9,
+      "carbs_g": 49,
+      "fat_g": 3.2,
+      "fiber_g": 2.7,
+      "calories_kcal": 265,
+      "health_tag": "Moderate"
+    },
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~21%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "110 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "28 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~70%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "banana",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 23,
       "fat_g": 0,
@@ -433,7 +1318,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B6",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.4 mg",
         "daily_requirement": "1.3 mg",
         "percent_fulfilled": "30%",
@@ -441,11 +1329,58 @@
       },
       {
         "nutrient": "Potassium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "350 mg",
         "daily_requirement": "3500 mg",
         "percent_fulfilled": "10%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.7 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "27 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.27 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "20 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
       }
     ]
   },
@@ -453,7 +1388,10 @@
     "name": "yogurt",
     "category": "dairy",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 4,
       "carbs_g": 5,
       "fat_g": 3,
@@ -464,11 +1402,47 @@
     "vitamins_minerals": [
       {
         "nutrient": "Calcium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "150 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "15%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.4 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "95 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "155 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "4%",
+        "notes": "Low"
       }
     ]
   },
@@ -476,7 +1450,10 @@
     "name": "tomato",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 4,
       "fat_g": 0,
@@ -487,10 +1464,57 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "14 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~15%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "42 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7.9 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "237 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "15 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "4%",
         "notes": "Low"
       }
     ]
@@ -499,7 +1523,10 @@
     "name": "onion",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 9,
       "fat_g": 0,
@@ -507,13 +1534,61 @@
       "calories_kcal": 40,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7.40 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.12 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "19 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "146 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~4%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "garlic",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 6.4,
       "carbs_g": 33.1,
       "fat_g": 0.5,
@@ -524,7 +1599,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "31 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~34%",
@@ -532,11 +1610,47 @@
       },
       {
         "nutrient": "Manganese",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "1.7 mg",
         "daily_requirement": "2.3 mg",
         "percent_fulfilled": "~74%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.24 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "95%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "14 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "35%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "181 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "18%",
+        "notes": "Moderate"
       }
     ]
   },
@@ -544,7 +1658,10 @@
     "name": "avocado",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 9,
       "fat_g": 15,
@@ -552,13 +1669,72 @@
       "calories_kcal": 160,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "10.0 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.10 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "21 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~18%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "81 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~20%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "485 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "olive oil",
     "category": "oils",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 0,
       "fat_g": 100,
@@ -566,13 +1742,61 @@
       "calories_kcal": 900,
       "health_tag": "Best (small)"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "14.4 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~96%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "60 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~50%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "cucumber",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 4,
       "fat_g": 0,
@@ -580,13 +1804,61 @@
       "calories_kcal": 15,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "16 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.80 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "13.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "147 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~4%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "chicken breast",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 22,
       "carbs_g": 0,
       "fat_g": 2,
@@ -594,13 +1866,72 @@
       "calories_kcal": 120,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "13.7 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~86%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~46%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "28 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~69%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "228 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~33%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "chicken thigh",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 0,
       "fat_g": 8,
@@ -608,13 +1939,72 @@
       "calories_kcal": 180,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.50 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~41%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.40 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~31%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "22 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~55%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "180 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~18%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "chicken mince",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 19,
       "carbs_g": 0,
       "fat_g": 10,
@@ -622,13 +2012,72 @@
       "calories_kcal": 190,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.50 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~53%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.40 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~31%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "24 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~60%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "190 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~18%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "mutton",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 0,
       "fat_g": 15,
@@ -636,13 +2085,72 @@
       "calories_kcal": 250,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~83%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "24 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~60%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "190 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "lamb",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 17,
       "carbs_g": 0,
       "fat_g": 20,
@@ -650,13 +2158,72 @@
       "calories_kcal": 280,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~83%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.00 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "25 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~62%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "190 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "pork",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 21,
       "carbs_g": 0,
       "fat_g": 14,
@@ -664,13 +2231,72 @@
       "calories_kcal": 240,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B1",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.70 mg",
+        "daily_requirement": "1.2 mg",
+        "percent_fulfilled": "~58%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.50 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~41%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.50 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~100%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "rohu",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 0,
       "fat_g": 6,
@@ -678,13 +2304,72 @@
       "calories_kcal": 140,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "~30%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~83%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "36 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~90%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "350 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "katla",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 0,
       "fat_g": 6,
@@ -692,13 +2377,72 @@
       "calories_kcal": 140,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~104%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "35 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~88%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "350 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "tuna",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 24,
       "carbs_g": 0,
       "fat_g": 1,
@@ -706,13 +2450,72 @@
       "calories_kcal": 110,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~104%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "90 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~225%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "250 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Niacin",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "18.0 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~112%",
+        "notes": "Very high"
+      }
+    ]
   },
   {
     "name": "salmon",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 0,
       "fat_g": 13,
@@ -723,11 +2526,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin D",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "526 IU",
         "daily_requirement": "600 IU",
         "percent_fulfilled": "~85%",
         "notes": "Best"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "133%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "36.5 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "91%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "252 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "628 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "18%",
+        "notes": "Moderate"
       }
     ]
   },
@@ -735,7 +2585,10 @@
     "name": "pomfret",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 0,
       "fat_g": 8,
@@ -743,13 +2596,72 @@
       "calories_kcal": 150,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "~23%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~83%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "35 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~88%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "300 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "prawns",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 0,
       "fat_g": 1,
@@ -757,13 +2669,72 @@
       "calories_kcal": 100,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~46%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~100%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "190 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.40 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~44%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "crab",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 0,
       "fat_g": 2,
@@ -771,13 +2742,72 @@
       "calories_kcal": 100,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "10 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~408%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "44 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~110%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "240 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~34%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7.60 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~69%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~67%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "squid",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 16,
       "carbs_g": 3,
       "fat_g": 1,
@@ -785,13 +2815,72 @@
       "calories_kcal": 90,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~54%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "44 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~110%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "279 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.90 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~211%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Zinc",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.50 mg",
+        "daily_requirement": "11 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "paneer",
     "category": "dairy",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 2,
       "fat_g": 20,
@@ -802,7 +2891,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B12",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.8 mcg",
         "daily_requirement": "2.4 mcg",
         "percent_fulfilled": "~30%",
@@ -810,10 +2902,46 @@
       },
       {
         "nutrient": "Calcium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "200 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "20%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "138 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "20%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "104 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "210 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "23%",
         "notes": "Good"
       }
     ]
@@ -822,7 +2950,10 @@
     "name": "greek yogurt",
     "category": "dairy",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 10,
       "carbs_g": 4,
       "fat_g": 3,
@@ -830,13 +2961,61 @@
       "calories_kcal": 80,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "110 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~33%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "135 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~19%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "141 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~4%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "buttermilk",
     "category": "dairy",
     "nutrients": {
-      "base": "100ml",
+      "base": {
+        "quantity": 100,
+        "unit": "ml"
+      },
       "protein_g": 3,
       "carbs_g": 4,
       "fat_g": 1,
@@ -844,13 +3023,61 @@
       "calories_kcal": 40,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "116 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "0 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "~17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "89.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~13%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "ml"
+        },
+        "amount": "151 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~4%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "moong dal",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 24,
       "carbs_g": 60,
       "fat_g": 1,
@@ -861,10 +3088,57 @@
     "vitamins_minerals": [
       {
         "nutrient": "Folate (B9)",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "160 mcg",
         "daily_requirement": "400 mcg",
         "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.7 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "39%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "189 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "47%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "367 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "52%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1246 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "36%",
         "notes": "Good"
       }
     ]
@@ -873,7 +3147,10 @@
     "name": "rajma",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 24,
       "carbs_g": 60,
       "fat_g": 1,
@@ -884,10 +3161,57 @@
     "vitamins_minerals": [
       {
         "nutrient": "Iron",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "5 mg",
         "daily_requirement": "17 mg",
         "percent_fulfilled": "~30%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "394 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "98%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "140 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "35%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "406 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "58%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1359 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "39%",
         "notes": "Good"
       }
     ]
@@ -896,7 +3220,10 @@
     "name": "lobia",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 23,
       "carbs_g": 60,
       "fat_g": 1,
@@ -904,13 +3231,72 @@
       "calories_kcal": 330,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "208 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~52%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.20 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "184 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~46%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "411 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~59%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1112 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~32%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "toor dal",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 22,
       "carbs_g": 63,
       "fat_g": 2,
@@ -918,13 +3304,72 @@
       "calories_kcal": 340,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "173 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5.20 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~31%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "183 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~46%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "296 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~42%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1392 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "masoor dal",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 25,
       "carbs_g": 60,
       "fat_g": 1,
@@ -932,13 +3377,72 @@
       "calories_kcal": 350,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "479 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~120%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.50 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "178 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~44%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "281 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "677 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~19%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "urad dal",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 25,
       "carbs_g": 58,
       "fat_g": 1,
@@ -946,13 +3450,72 @@
       "calories_kcal": 340,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "216 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~54%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~45%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "267 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~67%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "379 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~54%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "983 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "soya chunks",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 52,
       "carbs_g": 33,
       "fat_g": 1,
@@ -960,13 +3523,72 @@
       "calories_kcal": 345,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5.20 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~31%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "277 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "280 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~70%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "704 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~101%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1797 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~51%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "tofu",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 8,
       "carbs_g": 2,
       "fat_g": 4,
@@ -974,13 +3596,72 @@
       "calories_kcal": 80,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "350 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~35%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5.40 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~32%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "30.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "97.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "tempeh",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 19,
       "carbs_g": 9,
       "fat_g": 11,
@@ -988,13 +3669,72 @@
       "calories_kcal": 190,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "111 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.70 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~16%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "81.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~20%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "266 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.30 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~57%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "besan",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 22,
       "carbs_g": 58,
       "fat_g": 6,
@@ -1002,13 +3742,72 @@
       "calories_kcal": 380,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "437 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~109%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.90 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "166 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~42%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "318 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~45%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "846 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~24%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "sattu",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 60,
       "fat_g": 7,
@@ -1016,13 +3815,72 @@
       "calories_kcal": 400,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.50 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "250 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~62%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "160 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "300 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "800 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~23%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "peanut butter",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 25,
       "carbs_g": 20,
       "fat_g": 50,
@@ -1030,13 +3888,72 @@
       "calories_kcal": 600,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "9.10 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~61%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "154 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "335 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~48%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Niacin",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "13.1 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~82%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.50 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~65%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "peanuts",
     "category": "proteins",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 26,
       "carbs_g": 16,
       "fat_g": 49,
@@ -1047,11 +3964,47 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin E",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "8 mg",
         "daily_requirement": "15 mg",
         "percent_fulfilled": "~50%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "168 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "42%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "376 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "54%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "87%",
+        "notes": "High"
       }
     ]
   },
@@ -1059,7 +4012,10 @@
     "name": "quinoa",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 14,
       "carbs_g": 64,
       "fat_g": 6,
@@ -1067,13 +4023,72 @@
       "calories_kcal": 370,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~87%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "197 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~49%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "457 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~65%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "184 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~46%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "brown rice",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 7,
       "carbs_g": 77,
       "fat_g": 2,
@@ -1081,13 +4096,72 @@
       "calories_kcal": 360,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.70 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~161%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "143 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~36%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "333 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~48%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "23 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~58%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.50 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~41%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "wheat flour",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 12,
       "carbs_g": 72,
       "fat_g": 2,
@@ -1095,13 +4169,72 @@
       "calories_kcal": 340,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "44 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.90 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~23%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "138 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~34%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "346 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~49%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.80 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~165%",
+        "notes": "Very high"
+      }
+    ]
   },
   {
     "name": "roti",
     "category": "grains",
     "nutrients": {
-      "base": 1,
+      "base": {
+        "quantity": 1,
+        "unit": "piece"
+      },
       "protein_g": 3,
       "carbs_g": 15,
       "fat_g": 1,
@@ -1109,13 +4242,72 @@
       "calories_kcal": 80,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
+        "amount": "1.50 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
+        "amount": "30 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
+        "amount": "35.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
+        "amount": "75.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
+        "amount": "0.50 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~22%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "jowar",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 10,
       "carbs_g": 72,
       "fat_g": 3,
@@ -1123,13 +4315,72 @@
       "calories_kcal": 330,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.10 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~24%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "133 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~33%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "289 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~41%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~70%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.60 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~67%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "bajra",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 11,
       "carbs_g": 67,
       "fat_g": 5,
@@ -1137,13 +4388,72 @@
       "calories_kcal": 360,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.00 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~47%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "114 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "296 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~42%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~70%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "85 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~21%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "ragi",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 7,
       "carbs_g": 72,
       "fat_g": 1,
@@ -1154,11 +4464,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Calcium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "350 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "35%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.9 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "23%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "114 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "28%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "285 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "41%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "408 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
       }
     ]
   },
@@ -1166,7 +4523,10 @@
     "name": "poha",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 7,
       "carbs_g": 76,
       "fat_g": 1,
@@ -1174,13 +4534,72 @@
       "calories_kcal": 350,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B1",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.20 mg",
+        "daily_requirement": "1.2 mg",
+        "percent_fulfilled": "~17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "24.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "95.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.50 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~22%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "daliya",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 12,
       "carbs_g": 70,
       "fat_g": 1,
@@ -1188,13 +4607,72 @@
       "calories_kcal": 340,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~21%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "108 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "342 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~49%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.80 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~165%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "vermicelli",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 12,
       "carbs_g": 75,
       "fat_g": 1,
@@ -1202,13 +4680,61 @@
       "calories_kcal": 350,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.30 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "100 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~25%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~100%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.70 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~30%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "noodles",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 10,
       "carbs_g": 70,
       "fat_g": 14,
@@ -1216,13 +4742,61 @@
       "calories_kcal": 400,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.50 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "25 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "~62%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.70 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~30%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "100 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "cornflakes",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 7,
       "carbs_g": 84,
       "fat_g": 1,
@@ -1230,13 +4804,61 @@
       "calories_kcal": 360,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "28.0 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~165%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Vitamin B3",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "13.0 mg",
+        "daily_requirement": "16 mg",
+        "percent_fulfilled": "~81%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "300 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~75%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.00 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~77%",
+        "notes": "High"
+      }
+    ]
   },
   {
     "name": "muesli",
     "category": "grains",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 10,
       "carbs_g": 65,
       "fat_g": 5,
@@ -1244,13 +4866,72 @@
       "calories_kcal": 350,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.50 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~21%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "100 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~25%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "300 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~43%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.00 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~87%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "80 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~20%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "potato",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 17,
       "fat_g": 0,
@@ -1261,7 +4942,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B6",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "0.3 mg",
         "daily_requirement": "1.3 mg",
         "percent_fulfilled": "20%",
@@ -1269,11 +4953,58 @@
       },
       {
         "nutrient": "Potassium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "420 mg",
         "daily_requirement": "3500 mg",
         "percent_fulfilled": "12%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "19.7 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "22%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B1",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.08 mg",
+        "daily_requirement": "1.2 mg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "23 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "57 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "8%",
+        "notes": "Low"
       }
     ]
   },
@@ -1281,7 +5012,10 @@
     "name": "sweet potato",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 20,
       "fat_g": 0,
@@ -1292,11 +5026,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "960 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "100%+",
         "notes": "Excellent"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.4 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.26 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "337 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.21 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "16%",
+        "notes": "Moderate"
       }
     ]
   },
@@ -1304,7 +5085,10 @@
     "name": "corn",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 3,
       "carbs_g": 19,
       "fat_g": 1,
@@ -1312,13 +5096,72 @@
       "calories_kcal": 90,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "6.80 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "42 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "37.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "89.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~13%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "270 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "sabudana",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 88,
       "fat_g": 0,
@@ -1326,13 +5169,61 @@
       "calories_kcal": 350,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "20.0 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.00 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40.0 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~6%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "apple",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 14,
       "fat_g": 0,
@@ -1340,13 +5231,61 @@
       "calories_kcal": 50,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.60 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "107 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.03 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "mango",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 25,
       "fat_g": 0,
@@ -1357,11 +5296,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "54 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~6%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "36.4 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "43 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.9 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "168 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
       }
     ]
   },
@@ -1369,7 +5355,10 @@
     "name": "chikoo",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 20,
       "fat_g": 0,
@@ -1377,13 +5366,61 @@
       "calories_kcal": 80,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "14.7 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~16%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "193 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.10 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "grapes",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 18,
       "fat_g": 0,
@@ -1391,13 +5428,61 @@
       "calories_kcal": 70,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "10.8 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "15 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.10 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "191 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~5%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "orange",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 12,
       "fat_g": 0,
@@ -1408,11 +5493,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "50 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~60%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "30 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "181 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "4%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "11 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "1%",
+        "notes": "Low"
       }
     ]
   },
@@ -1420,7 +5552,10 @@
     "name": "papaya",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 11,
       "fat_g": 0,
@@ -1428,13 +5563,61 @@
       "calories_kcal": 40,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "61.8 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~69%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "47 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "38 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~10%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "257 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "pineapple",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 13,
       "fat_g": 0,
@@ -1442,13 +5625,61 @@
       "calories_kcal": 50,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "47.8 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~53%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.90 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~39%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.10 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~8%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.10 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "dates",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 75,
       "fat_g": 0,
@@ -1456,13 +5687,72 @@
       "calories_kcal": 280,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "696 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~20%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "54.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.36 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.90 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.25 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~19%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "ghee",
     "category": "oils",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 0,
       "fat_g": 100,
@@ -1470,13 +5760,72 @@
       "calories_kcal": 900,
       "health_tag": "Limit (1-2 tsp)"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "840 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "~93%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.80 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "~19%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "9 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.5 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "coconut oil",
     "category": "oils",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0,
       "carbs_g": 0,
       "fat_g": 100,
@@ -1484,13 +5833,39 @@
       "calories_kcal": 900,
       "health_tag": "Limit"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.10 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.00 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "<1%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "almonds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 21,
       "carbs_g": 22,
       "fat_g": 50,
@@ -1501,7 +5876,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin E",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "25 mg",
         "daily_requirement": "15 mg",
         "percent_fulfilled": "150%",
@@ -1509,11 +5887,58 @@
       },
       {
         "nutrient": "Magnesium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "270 mg",
         "daily_requirement": "400 mg",
         "percent_fulfilled": "70%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "269 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "27%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.7 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "22%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.18 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "95%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.03 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "114%",
+        "notes": "Very high"
       }
     ]
   },
@@ -1521,7 +5946,10 @@
     "name": "cashews",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 30,
       "fat_g": 44,
@@ -1532,11 +5960,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Zinc",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "5 mg",
         "daily_requirement": "11 mg",
         "percent_fulfilled": "~45%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "292 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "73%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.2 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "244%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.66 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "72%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "593 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "85%",
+        "notes": "High"
       }
     ]
   },
@@ -1544,7 +6019,10 @@
     "name": "walnuts",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 15,
       "carbs_g": 14,
       "fat_g": 65,
@@ -1552,13 +6030,72 @@
       "calories_kcal": 650,
       "health_tag": "Best (small)"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Omega-3 ALA",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "9.1 g",
+        "daily_requirement": "1.6 g",
+        "percent_fulfilled": "~569%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "158 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~40%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~178%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "3.40 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~148%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "346 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~49%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "pistachios",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 28,
       "fat_g": 45,
@@ -1566,13 +6103,72 @@
       "calories_kcal": 560,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.70 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~131%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.30 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~144%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.20 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~52%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "490 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~70%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1025 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~29%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "chia seeds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 17,
       "carbs_g": 42,
       "fat_g": 31,
@@ -1580,13 +6176,72 @@
       "calories_kcal": 490,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "631 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "~63%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "335 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~84%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "860 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~123%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.70 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~117%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "7.70 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~45%",
+        "notes": "Good"
+      }
+    ]
   },
   {
     "name": "flax seeds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 29,
       "fat_g": 42,
@@ -1594,13 +6249,72 @@
       "calories_kcal": 530,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Omega-3 ALA",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "22.8 g",
+        "daily_requirement": "1.6 g",
+        "percent_fulfilled": "~1425%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "392 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~98%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "642 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~92%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.50 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~109%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Thiamine",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.60 mg",
+        "daily_requirement": "1.2 mg",
+        "percent_fulfilled": "~133%",
+        "notes": "Very high"
+      }
+    ]
   },
   {
     "name": "pumpkin seeds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 30,
       "carbs_g": 10,
       "fat_g": 49,
@@ -1611,7 +6325,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Magnesium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "535 mg",
         "daily_requirement": "400 mg",
         "percent_fulfilled": "100%+",
@@ -1619,11 +6336,58 @@
       },
       {
         "nutrient": "Zinc",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "7.5 mg",
         "daily_requirement": "11 mg",
         "percent_fulfilled": "~70%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.8 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "52%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1233 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "176%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.54 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "197%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.34 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "149%",
+        "notes": "Very high"
       }
     ]
   },
@@ -1631,7 +6395,10 @@
     "name": "sunflower seeds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 21,
       "carbs_g": 20,
       "fat_g": 51,
@@ -1642,11 +6409,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin E",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "35 mg",
         "daily_requirement": "15 mg",
         "percent_fulfilled": "200%+",
         "notes": "Excellent"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "325 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "81%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "53 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "132%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "660 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "94%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.8 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "200%",
+        "notes": "Very high"
       }
     ]
   },
@@ -1654,7 +6468,10 @@
     "name": "sesame seeds",
     "category": "other",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 18,
       "carbs_g": 23,
       "fat_g": 50,
@@ -1665,11 +6482,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Calcium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "975 mg",
         "daily_requirement": "1000 mg",
         "percent_fulfilled": "100%+",
         "notes": "Excellent"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "351 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "88%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "14.6 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "86%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "629 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "90%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.57 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "174%",
+        "notes": "Very high"
       }
     ]
   },
@@ -1677,7 +6541,10 @@
     "name": "coconut",
     "category": "fruits",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 3,
       "carbs_g": 15,
       "fat_g": 33,
@@ -1685,13 +6552,72 @@
       "calories_kcal": 350,
       "health_tag": "Moderate"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.50 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~65%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.40 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "~44%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.40 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "113 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "~16%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "356 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~10%",
+        "notes": "Moderate"
+      }
+    ]
   },
   {
     "name": "carrot",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 10,
       "fat_g": 0,
@@ -1702,11 +6628,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "835 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~90%",
         "notes": "Top source"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "13.2 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5.9 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "320 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "19 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
       }
     ]
   },
@@ -1714,7 +6687,10 @@
     "name": "capsicum",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 6,
       "fat_g": 0,
@@ -1725,11 +6701,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "120 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "130%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "157 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.22 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "17%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "46 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "211 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "6%",
+        "notes": "Low"
       }
     ]
   },
@@ -1737,7 +6760,10 @@
     "name": "spinach",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 3,
       "carbs_g": 4,
       "fat_g": 0,
@@ -1748,7 +6774,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "470 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~50%",
@@ -1756,7 +6785,10 @@
       },
       {
         "nutrient": "Folate (B9)",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "190 mcg",
         "daily_requirement": "400 mcg",
         "percent_fulfilled": "~50%",
@@ -1764,7 +6796,10 @@
       },
       {
         "nutrient": "Vitamin K",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "480 mcg",
         "daily_requirement": "120 mcg",
         "percent_fulfilled": "400%+",
@@ -1772,7 +6807,10 @@
       },
       {
         "nutrient": "Iron",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "2.7 mg",
         "daily_requirement": "17 mg",
         "percent_fulfilled": "~15%",
@@ -1780,7 +6818,10 @@
       },
       {
         "nutrient": "Magnesium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "80 mg",
         "daily_requirement": "400 mg",
         "percent_fulfilled": "20%",
@@ -1788,7 +6829,10 @@
       },
       {
         "nutrient": "Potassium",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "550 mg",
         "daily_requirement": "3500 mg",
         "percent_fulfilled": "15%",
@@ -1800,7 +6844,10 @@
     "name": "broccoli",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 3,
       "carbs_g": 7,
       "fat_g": 0,
@@ -1811,11 +6858,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin K",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "100 mcg",
         "daily_requirement": "120 mcg",
         "percent_fulfilled": "~100%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "89.2 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "99%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "63 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "16%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "31 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "316 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "9%",
+        "notes": "Low"
       }
     ]
   },
@@ -1823,7 +6917,10 @@
     "name": "cauliflower",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 5,
       "fat_g": 0,
@@ -1831,13 +6928,72 @@
       "calories_kcal": 25,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "48.2 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~54%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "16 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~13%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "57 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.20 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "299 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "cabbage",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 6,
       "fat_g": 0,
@@ -1848,11 +7004,58 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin K",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "75 mcg",
         "daily_requirement": "120 mcg",
         "percent_fulfilled": "~70%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "36.6 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "41%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "43 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.12 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "170 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
       }
     ]
   },
@@ -1860,7 +7063,10 @@
     "name": "bhindi",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2,
       "carbs_g": 7,
       "fat_g": 0,
@@ -1868,13 +7074,72 @@
       "calories_kcal": 30,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "23.0 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "31 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~26%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "60 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~15%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "57.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "299 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "lauki",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 3,
       "fat_g": 0,
@@ -1882,13 +7147,61 @@
       "calories_kcal": 15,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "10.1 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~11%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Vitamin B6",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.04 mg",
+        "daily_requirement": "1.3 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "11.0 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "150 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~4%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "brinjal",
     "category": "vegetables",
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1,
       "carbs_g": 6,
       "fat_g": 0,
@@ -1896,7 +7209,63 @@
       "calories_kcal": 25,
       "health_tag": "Best"
     },
-    "vitamins_minerals": []
+    "vitamins_minerals": [
+      {
+        "nutrient": "Vitamin K",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4 mcg",
+        "daily_requirement": "120 mcg",
+        "percent_fulfilled": "~3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2.20 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "~2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "22 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "~6%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "229 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "~7%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.20 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "~9%",
+        "notes": "Low"
+      }
+    ]
   },
   {
     "name": "pumpkin",
@@ -1904,19 +7273,59 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "426 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~45%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "9 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "340 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1.1 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "7%",
+        "notes": "Low"
       }
     ],
     "nutrients": {
-      "protein": 30,
-      "carbohydrates": 10,
-      "fat": 49,
-      "fiber": 6,
-      "calories": 560
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
+      "protein_g": 30,
+      "carbs_g": 10,
+      "fat_g": 49,
+      "fiber_g": 6,
+      "calories_kcal": 560
     }
   },
   {
@@ -1925,7 +7334,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin A",
-        "serving": "1 egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "75 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~8%",
@@ -1933,7 +7345,10 @@
       },
       {
         "nutrient": "Vitamin D",
-        "serving": "1 egg",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "40 IU",
         "daily_requirement": "600 IU",
         "percent_fulfilled": "~7%",
@@ -1941,7 +7356,10 @@
       },
       {
         "nutrient": "Vitamin A",
-        "serving": "1 egg yolk",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "75 mcg",
         "daily_requirement": "900 mcg",
         "percent_fulfilled": "~8%",
@@ -1949,7 +7367,10 @@
       },
       {
         "nutrient": "Vitamin D",
-        "serving": "1 egg yolk",
+        "serving": {
+          "quantity": 1,
+          "unit": "piece"
+        },
         "amount": "40 IU",
         "daily_requirement": "600 IU",
         "percent_fulfilled": "~7%",
@@ -1957,7 +7378,11 @@
       }
     ],
     "nutrients": {
-      "base": "1 egg yolk",
+      "base": {
+        "quantity": 1,
+        "unit": "piece",
+        "descriptor": "egg yolk"
+      },
       "protein_g": 2.7,
       "carbs_g": 0.6,
       "fat_g": 4.5,
@@ -1972,15 +7397,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "600 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "600%+",
         "notes": "Best"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "15 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "25 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.3 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "2%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "198 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "6%",
+        "notes": "Low"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 0.8,
       "carbs_g": 10,
       "fat_g": 0.5,
@@ -1995,15 +7470,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "228 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "200%+",
         "notes": "Excellent"
+      },
+      {
+        "nutrient": "Vitamin A",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "31 mcg",
+        "daily_requirement": "900 mcg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "49 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "417 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "12%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.23 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "26%",
+        "notes": "Good"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 2.6,
       "carbs_g": 14.3,
       "fat_g": 1,
@@ -2018,15 +7543,54 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin C",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "53 mg",
         "daily_requirement": "90 mg",
         "percent_fulfilled": "~60%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "138 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "4%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Folate (B9)",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "11 mcg",
+        "daily_requirement": "400 mcg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "26 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "3%",
+        "notes": "Low"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1.1,
       "carbs_g": 9.3,
       "fat_g": 0.3,
@@ -2041,15 +7605,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin D",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "270 IU",
         "daily_requirement": "600 IU",
         "percent_fulfilled": "~45%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin B12",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "8.9 mcg",
+        "daily_requirement": "2.4 mcg",
+        "percent_fulfilled": "371%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "52.7 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "132%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "382 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "38%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "490 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "70%",
+        "notes": "High"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 24.6,
       "carbs_g": 0,
       "fat_g": 11.5,
@@ -2069,9 +7683,33 @@
         "daily_requirement": "600 IU",
         "percent_fulfilled": "~30%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "318 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "9.3 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "23%",
+        "notes": "Good"
       }
     ],
-    "nutrients": {}
+    "nutrients": {
+      "base": null
+    }
   },
   {
     "name": "fish",
@@ -2079,15 +7717,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Vitamin B12",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "2.5 mcg",
         "daily_requirement": "2.4 mcg",
         "percent_fulfilled": "100%+",
         "notes": "Best"
+      },
+      {
+        "nutrient": "Vitamin D",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "5 mcg",
+        "daily_requirement": "15 mcg",
+        "percent_fulfilled": "33%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Selenium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "40 mcg",
+        "daily_requirement": "40 mcg",
+        "percent_fulfilled": "100%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Phosphorus",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "200 mg",
+        "daily_requirement": "700 mg",
+        "percent_fulfilled": "29%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "350 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "10%",
+        "notes": "Moderate"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 22,
       "carbs_g": 0,
       "fat_g": 5,
@@ -2102,15 +7790,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Folate (B9)",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "110 mcg",
         "daily_requirement": "400 mcg",
         "percent_fulfilled": "~25%",
         "notes": "Moderate"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "325 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "9%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.33 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "14%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Iron",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "0.8 mg",
+        "daily_requirement": "17 mg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "4.9 mg",
+        "daily_requirement": "90 mg",
+        "percent_fulfilled": "5%",
+        "notes": "Low"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 1.6,
       "carbs_g": 10,
       "fat_g": 0.2,
@@ -2130,9 +7868,44 @@
         "daily_requirement": "17 mg",
         "percent_fulfilled": "~60%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Potassium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1050 mg",
+        "daily_requirement": "3500 mg",
+        "percent_fulfilled": "30%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "70 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "18%",
+        "notes": "Moderate"
+      },
+      {
+        "nutrient": "Calcium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "80 mg",
+        "daily_requirement": "1000 mg",
+        "percent_fulfilled": "8%",
+        "notes": "Low"
       }
     ],
-    "nutrients": {}
+    "nutrients": {
+      "base": null
+    }
   },
   {
     "name": "salt",
@@ -2140,7 +7913,10 @@
     "vitamins_minerals": [
       {
         "nutrient": "Sodium",
-        "serving": "1 tsp",
+        "serving": {
+          "quantity": 1,
+          "unit": "tsp"
+        },
         "amount": "2300 mg",
         "daily_requirement": "2000 mg",
         "percent_fulfilled": "100%+",
@@ -2148,7 +7924,10 @@
       }
     ],
     "nutrients": {
-      "base": "1 tsp",
+      "base": {
+        "quantity": 1,
+        "unit": "tsp"
+      },
       "protein_g": 0,
       "carbs_g": 0,
       "fat_g": 0,
@@ -2163,15 +7942,65 @@
     "vitamins_minerals": [
       {
         "nutrient": "Phosphorus",
-        "serving": "100g",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
         "amount": "300 mg",
         "daily_requirement": "700 mg",
         "percent_fulfilled": "40%",
         "notes": "Good"
+      },
+      {
+        "nutrient": "Magnesium",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "180 mg",
+        "daily_requirement": "400 mg",
+        "percent_fulfilled": "45%",
+        "notes": "Good"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "12 mg",
+        "daily_requirement": "15 mg",
+        "percent_fulfilled": "80%",
+        "notes": "High"
+      },
+      {
+        "nutrient": "Copper",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "1 mg",
+        "daily_requirement": "0.9 mg",
+        "percent_fulfilled": "111%",
+        "notes": "Very high"
+      },
+      {
+        "nutrient": "Manganese",
+        "serving": {
+          "quantity": 100,
+          "unit": "g"
+        },
+        "amount": "2 mg",
+        "daily_requirement": "2.3 mg",
+        "percent_fulfilled": "87%",
+        "notes": "High"
       }
     ],
     "nutrients": {
-      "base": "100g",
+      "base": {
+        "quantity": 100,
+        "unit": "g"
+      },
       "protein_g": 20,
       "carbs_g": 20,
       "fat_g": 55,

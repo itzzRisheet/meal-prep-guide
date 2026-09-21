@@ -4,9 +4,21 @@
     "category": "breakfast",
     "description": "Simple, quick scrambled eggs with buttered toast.",
     "ingredients": [
-      { "name": "eggs", "quantity": "3" },
-      { "name": "butter", "quantity": "1 tbsp" },
-      { "name": "bread", "quantity": "2 slices" }
+      {
+        "name": "eggs",
+        "quantity": 3,
+        "unit": "piece"
+      },
+      {
+        "name": "butter",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "bread",
+        "quantity": 2,
+        "unit": "slice"
+      }
     ],
     "recipe": "Beat eggs with a pinch of salt. Melt butter in a pan, pour eggs and stir until softly set. Toast the bread and serve.",
     "youtubeLink": "https://www.youtube.com/results?search_query=scrambled+eggs",
@@ -20,10 +32,26 @@
     "category": "breakfast",
     "description": "Warm oats topped with fresh or frozen berries.",
     "ingredients": [
-      { "name": "oats", "quantity": "1 cup" },
-      { "name": "milk", "quantity": "1.5 cups" },
-      { "name": "berries", "quantity": "1 cup" },
-      { "name": "honey", "quantity": "1 tbsp" }
+      {
+        "name": "oats",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "berries",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "honey",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
     ],
     "recipe": "Cook oats in milk for 5-7 minutes until thick. Top with berries and a drizzle of honey.",
     "youtubeLink": "https://www.youtube.com/results?search_query=oatmeal+with+berries",
@@ -37,10 +65,26 @@
     "category": "breakfast",
     "description": "Mashed avocado on toasted bread with lemon and chili flakes.",
     "ingredients": [
-      { "name": "avocado", "quantity": "1" },
-      { "name": "bread", "quantity": "2 slices" },
-      { "name": "lemon juice", "quantity": "1 tsp" },
-      { "name": "salt", "quantity": "to taste" }
+      {
+        "name": "avocado",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "bread",
+        "quantity": 2,
+        "unit": "slice"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": null,
+        "unit": "to taste"
+      }
     ],
     "recipe": "Toast bread, mash avocado with lemon and salt, spread on toast. Sprinkle chili flakes if desired.",
     "youtubeLink": "https://www.youtube.com/results?search_query=avocado+toast",
@@ -54,11 +98,32 @@
     "category": "meal",
     "description": "One-pan fried rice with chicken and mixed vegetables.",
     "ingredients": [
-      { "name": "rice", "quantity": "3 cups cooked" },
-      { "name": "chicken", "quantity": "250g" },
-      { "name": "eggs", "quantity": "2" },
-      { "name": "soy sauce", "quantity": "2 tbsp" },
-      { "name": "vegetables", "quantity": "1 cup mixed" }
+      {
+        "name": "rice",
+        "quantity": 3,
+        "unit": "cup",
+        "state": "cooked"
+      },
+      {
+        "name": "chicken",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetables",
+        "quantity": 1,
+        "unit": "cup"
+      }
     ],
     "recipe": "Stir-fry chicken until cooked. Push to side, scramble eggs. Add rice and vegetables, pour soy sauce and toss until combined.",
     "youtubeLink": "https://www.youtube.com/results?search_query=chicken+fried+rice",
@@ -72,11 +137,31 @@
     "category": "meal",
     "description": "Creamy carbonara with pancetta and parmesan.",
     "ingredients": [
-      { "name": "pasta", "quantity": "400g" },
-      { "name": "bacon", "quantity": "150g" },
-      { "name": "eggs", "quantity": "3" },
-      { "name": "parmesan cheese", "quantity": "80g" },
-      { "name": "black pepper", "quantity": "to taste" }
+      {
+        "name": "pasta",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "bacon",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "eggs",
+        "quantity": 3,
+        "unit": "piece"
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "black pepper",
+        "quantity": null,
+        "unit": "to taste"
+      }
     ],
     "recipe": "Cook pasta. Fry bacon until crispy. Whisk eggs and cheese. Toss hot pasta with bacon and egg mixture off the heat, season with pepper.",
     "youtubeLink": "https://www.youtube.com/results?search_query=pasta+carbonara",
@@ -90,10 +175,26 @@
     "category": "meal",
     "description": "Quick stir-fried seasonal vegetables with garlic and soy.",
     "ingredients": [
-      { "name": "vegetables", "quantity": "3 cups mixed" },
-      { "name": "garlic", "quantity": "2 cloves" },
-      { "name": "soy sauce", "quantity": "1.5 tbsp" },
-      { "name": "oil", "quantity": "1 tbsp" }
+      {
+        "name": "vegetables",
+        "quantity": 3,
+        "unit": "cup"
+      },
+      {
+        "name": "garlic",
+        "quantity": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
     ],
     "recipe": "Heat oil, add garlic and vegetables, stir-fry on high heat. Add soy sauce and toss until cooked but crisp.",
     "youtubeLink": "https://www.youtube.com/results?search_query=vegetable+stir+fry",
@@ -107,10 +208,27 @@
     "category": "snacks",
     "description": "Creamy hummus served with warm pita bread.",
     "ingredients": [
-      { "name": "chickpeas", "quantity": "2 cups cooked" },
-      { "name": "tahini", "quantity": "2 tbsp" },
-      { "name": "lemon juice", "quantity": "1 tbsp" },
-      { "name": "garlic", "quantity": "1 clove" }
+      {
+        "name": "chickpeas",
+        "quantity": 2,
+        "unit": "cup",
+        "state": "cooked"
+      },
+      {
+        "name": "tahini",
+        "quantity": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "unit": "piece"
+      }
     ],
     "recipe": "Blend chickpeas, tahini, lemon and garlic until smooth. Serve with pita and olive oil.",
     "youtubeLink": "https://www.youtube.com/results?search_query=hummus+recipe",
@@ -124,10 +242,26 @@
     "category": "snacks",
     "description": "Blended banana and mixed berries with yogurt.",
     "ingredients": [
-      { "name": "banana", "quantity": "1" },
-      { "name": "berries", "quantity": "1 cup" },
-      { "name": "yogurt", "quantity": "1 cup" },
-      { "name": "milk", "quantity": "1/2 cup" }
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "piece"
+      },
+      {
+        "name": "berries",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "yogurt",
+        "quantity": 1,
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "quantity": 0.5,
+        "unit": "cup"
+      }
     ],
     "recipe": "Blend all ingredients until smooth. Serve chilled.",
     "youtubeLink": "https://www.youtube.com/results?search_query=fruit+smoothie",
@@ -141,10 +275,27 @@
     "category": "breakfast",
     "description": "Fluffy omelette with fresh tomato and onion.",
     "ingredients": [
-      { "name": "eggs", "quantity": "2" },
-      { "name": "tomato", "quantity": "1 small" },
-      { "name": "onion", "quantity": "1/4" },
-      { "name": "salt", "quantity": "to taste" }
+      {
+        "name": "eggs",
+        "quantity": 2,
+        "unit": "piece"
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "unit": "piece",
+        "descriptor": "small"
+      },
+      {
+        "name": "onion",
+        "quantity": 0.25,
+        "unit": "piece"
+      },
+      {
+        "name": "salt",
+        "quantity": null,
+        "unit": "to taste"
+      }
     ],
     "recipe": "Beat eggs, fold in diced tomato and onion, cook in a non-stick pan until set.",
     "youtubeLink": "https://www.youtube.com/results?search_query=tomato+omelette",
@@ -158,10 +309,26 @@
     "category": "snacks",
     "description": "Protein-packed salad with chickpeas, cucumber and lemon.",
     "ingredients": [
-      { "name": "chickpeas", "quantity": "1.5 cups" },
-      { "name": "cucumber", "quantity": "1/2" },
-      { "name": "lemon juice", "quantity": "1 tbsp" },
-      { "name": "olive oil", "quantity": "1 tbsp" }
+      {
+        "name": "chickpeas",
+        "quantity": 1.5,
+        "unit": "cup"
+      },
+      {
+        "name": "cucumber",
+        "quantity": 0.5,
+        "unit": "piece"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1,
+        "unit": "tbsp"
+      }
     ],
     "recipe": "Mix chickpeas with diced cucumber, lemon, olive oil, salt and pepper. Chill and serve.",
     "youtubeLink": "https://www.youtube.com/results?search_query=chickpea+salad",
