@@ -4,6 +4,12 @@
 node_modules/
 
 # =========================
+# Local operations
+# =========================
+import_via_mongoose.js
+data/
+
+# =========================
 # Environment variables
 # =========================
 .env
